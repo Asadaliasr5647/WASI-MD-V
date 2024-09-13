@@ -84,7 +84,7 @@ module.exports = {
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
   WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
   AUTOREACTION: process.env.AUTOREACTION || process.env.AUTOREACTION || "true",
-  LANG: (process.env.THEME || "ASRI").toUpperCase(),
+  LANG: (process.env.THEME || "WASI").toUpperCase(),
 };
 global.rank = "updated";
 global.isMongodb = false;
